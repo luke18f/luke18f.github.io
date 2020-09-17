@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<Html>
+    <head>
+        <title>CCC</title>
+        
+        <link rel="stylesheet" href="cccstyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--top of the page title--> 
+        <div class="title">
+            <h1>The CCC</h1>
+            <h3>Comprehensive Cricket Countdown</h3>
+        </div class="title">
+        <div class="calendar-download"> <!--this is the calendar download button which downloads the .ics file-->
+            <a href="C:\Users\lukef\Desktop\Website\Comprehensive Cricket Countdown\media\Comprehensive_Cricket_Countdown.ics" download>
+                <img src="https://i.imgur.com/IFtJfeb.png" alt="Add to calendar" height="30" width="150">
+            </a>
+        </div>
+        <div class="twitter" align = "right">
+            <!--This is the twitter timeline aligned to the right of the website-->
+        <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/ICC?ref_src=twsrc%5Etfw">Tweets by ICC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        
+        <noscript id="countdown">Sorry, you need JavaScript enabled to view the count
+            downs</noscript>
+
+             
+        <div class="table">
+        <script src="table.js"></script>
+        <!--This is the link to the javascript that powers the countdown table-->
+    </div>
+    <br>
+    <div class="footer">
+        <!--red background saying thank-you to these websites that helped me with clickable icons-->
+      <h1>Special thanks to:</h1>
+      <p>
+        <a href="https://www.cricbuzz.com" target="blank">
+        <img border="0" alt="CricBuzz" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAABVCAMAAABzYYb0AAAAb1BMVEUJroQMsYkJrob///8Kr4ULsIgLsYkArIFvwaUAq34Ar4MAqHoKr4n7/v0Aq4LQ6+Pm9O9bwKHy+Pfd8epFu5qGz7i+5diY18TJ6uGd0793zbO03tAztpBSvp2R076f18ZtyKun18lbuZhGt5F6xq6fu+z3AAAE8ElEQVRoge2Z6XajOBBGhRaLktjEZscIA8Hv/4wjlSC2k+4/tH3aM8OXc5JCgHSpTdghZNeuXbt27dr1HxB/vTZxHaJX67CRy//429dfh+h+aDV+Dh2i3w3dz3fYyvV6bfXXm3K9a37tXDvXv4ZL8MP3Gd+B60B68YZcAi4DiPfjkmeWw9v5K4GRMWb5m3FxOLKUsVzyxzmfzHXgB/Gjtn4rwaGuGKqqQXHBhRAJ9zM8l0soKX/WfPRr0gOXdmCr0tO5t1ypyM7JZi7xvXwCVaLGbjBw7zE/v4TouxOF4ATmoWQPSsuiai+1fzKxkeuXkmPlcuUo74ZgPI9Na77dQSXQJk/ZN6xqGC2VFC95Ihft20t8PrGZ36F2fsV+uSNJ3IIu1H1zenRVWuRD7JhuMz+RSw5FVeWXqckCBI59IBd1Ke0Dqrk1TVc8MJUudkbILKM8uU32RC7BE2vnODeRtSoDAKm1brw3rBS2NtdjWxXlg5dOx3i2HODnjE/kojYty6Id68g0Q9fmeX46nbAPFEVZ3rLJp/epO177matM8tAensyV3M+VTX7ZQQouJYlqcx6mDrkqF+DKc3bTRxObOSKQSeJxDndTPcy1nYuCsBFIjuXl0keqRPfT8Kkxr2TkLtCgjc8gq4EmLrAuuC602n0udo3O5b97AHCP4DLPVSFXq03+gCuRpi1cQKZaWXNpr2CGK1w+mmYYiSCqyd3JvEmI50r7qSrLfMycd7q2ba3g5sPJ0iTvhsv5fG4mq+xqD0Zt5yLHJWFa8OXVnRibdOsHRqoO+ZJKBrnYkuxnEg6tIGf8S+1X0n2S+ctu5FYuLi/rJFe5lv2kcQ+eiVo2PVYk3NzXX+12aUcJgtf+OMrGG5eMn8Cl+mUllztqdc6ETYEJXBxPtvKeK2UderTQIjiKQuUGg98/oWVpGuyGbOWSuOFWph4bmZ2WdTt8lWIyOHDq68YsgWNNjTcUOr/nykTfzxaDX1FR1/WMu0Nh6VYuyDEsUpFMZGHiz95I4x8fMEYVKOraZeDqNMU7SlsFLo5cUlCijyHgVBCuMTnKWm7l4rLCVfCLMPAPWboKl8Rzldga3Ktx+BrLhBwMV6W9d2UBnAQuIhYsPxOFZsHa/P0Xl5hTvW83YcVWE8pl4EJ/Fa6zKbLE8agVZlbwV2oJJnmqqVxRlFIw+uwqDSi1mQtZ2IkDtwrtAYJzPBctg49kZNXSJ2YS46IZPs+gCeaBltjdyl65jRXwyjTOnE02+2vEMiryqqDgPXEE38T9aAkaoVmVlx1kIe/T0EvycCrN8TDVHEfLqijSD1J+2Z3cykXEWoSsR67Jc5Er5r2s13OVlLcO5X0ID4da3GyT3Db2BrZyucRdu+lFe8TWJ2totkDguqxR2sC1bg2ShMRkKdZwlty4qP16A0rrzXF01SMuBS7XLT3JVyY2Kavcx5zWv9ekaQxn9/tkO79o60rD7YL+M0aN9RjduAq4bUkF3Zz3TgrUbGJTC/kZO/lBVXtL+KeFqI9j94JFRD/XVoKNr70PNSfcxBZA+Cspj1d9KnqzyZ9wuVtVOHBvJlKFEW8FU/k3mXC1InhGrV/Me8tf6VveKjd0b/8R1+9E/9r/FZ6x8P+Li75Ym7AIeTXWRrDXY70r1yYssjX8u3bt2vXX9aaN9fVYe+fetWvXrl27dr1Q/wBJSmkFAanfugAAAABJRU5ErkJggg==" width="151" height="85">
+        </a>
+        </p>
+        <p>
+            <a href="https://w3schools.com" target="blank">
+            <img class="w3-schools" border="0" alt="W3Schools" src="https://lh3.googleusercontent.com/i-ij7KM2pFUUpFE31QAUDXg5mzGFNbm16S4tjmg2ZyuhCGLgNJ8oXJRbq7ysh6LoZg" width="100" height="100">
+            </a>
+        </p>
+    </div>
+    
+    </body>
+</html>
