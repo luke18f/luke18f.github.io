@@ -1,0 +1,104 @@
+
+
+body {
+    background-color: white;
+}
+
+div.title 
+{
+    text-align: left;
+    font-family: 'Mr De Haviland', cursive;
+    color: white;
+    font-size: 40px;
+    line-height: 2px;
+    padding: 20px;
+    background-color: #f44336;
+}
+div.cricket-ball
+{
+    text-align: right;
+    contain: content;
+}
+link
+{
+    color: white;
+}
+div.calendar-download{
+        background-color: white;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      
+      a:hover, a:active {
+        background-color: red;
+      }
+script {
+    display: none;
+}
+table {
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #edf;
+}
+.category {
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+td, th {
+    padding: .5em;
+}
+.days, .hours, .minutes, .seconds {
+    text-align: right;
+}
+#countdown thead tr
+{
+    background-color: crimson;
+}
+#image
+{
+   text-align: right; 
+   object-fit: cover;
+   padding: 0px;
+}
+a.twitter-timeline
+{
+    text-align: right;
+    height: fit-content;
+}
+.twitter  {
+    position: absolute;
+    right: 100px;
+}
+.table {
+    position: fixed;
+    left: 300px;
+}
+div.footer
+{
+    display: flexbox;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a
+{
+    display: inline-block;
+}
+img.w3-schools
+{
+    display: inline-block;
+    position: relative;
+    left: 175px;
+    bottom: 100px;
+}
