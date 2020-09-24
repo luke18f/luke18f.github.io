@@ -1,11 +1,12 @@
-
-
 body {
     background-color: white;
+    
+    /* ADDED */
+    padding: 0px;
+    margin: 0px;
 }
 
-div.title 
-{
+header {
     text-align: left;
     font-family: 'Mr De Haviland', cursive;
     color: white;
@@ -36,9 +37,19 @@ div.calendar-download{
       a:hover, a:active {
         background-color: red;
       }
-script {
+/*script {
     display: none;
+}*/
+
+content { /* NEW */
+  display: flex;
+  flex-wrap: wrap;
 }
+
+content > * { /* NEW */
+  margin-bottom: 1rem;
+}
+
 table {
     border-collapse: collapse;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,14 +86,19 @@ a.twitter-timeline
     height: fit-content;
 }
 .twitter  {
-    position: absolute;
-    right: 100px;
+    /* position: absolute; */
+    /*right: 100px; */
+    
+    /* NEW */
+    text-align: right;
+    flex: 1 1 auto;
+    padding-right: 100px;
 }
-.table {
+/*.table {
     position: fixed;
     left: 300px;
-}
-div.footer
+}*/
+footer
 {
     display: flexbox;
     padding: 20px;
