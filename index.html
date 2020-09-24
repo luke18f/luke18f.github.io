@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<Html>
+<html>
     <head>
         <title>CCC</title>
         
@@ -8,30 +8,34 @@
     </head>
     <body>
         <!--top of the page title--> 
-        <div class="title">
+        <header>
             <h1>The CCC</h1>
             <h3>Comprehensive Cricket Countdown</h3>
-        </div class="title">
+        </header>
         <div class="calendar-download"> <!--this is the calendar download button which downloads the .ics file-->
-            <a href="https://srv-file6.gofile.io/downloadStore/srv-store2/bYSI6b/Comprehensive_Cricket_Countdown.ics" download>
+            <a href="C:\Users\lukef\Desktop\Website\Comprehensive Cricket Countdown\media\Comprehensive_Cricket_Countdown.ics" download>
                 <img src="https://i.imgur.com/IFtJfeb.png" alt="Add to calendar" height="30" width="150">
             </a>
         </div>
-        <div class="twitter" align = "right">
-            <!--This is the twitter timeline aligned to the right of the website-->
-        <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/ICC?ref_src=twsrc%5Etfw">Tweets by ICC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
         
-        <noscript id="countdown">Sorry, you need JavaScript enabled to view the count
+        <noscript>Sorry, you need JavaScript enabled to view the count
             downs</noscript>
 
-             
-        <div class="table">
-        <script src="table.js"></script>
-        <!--This is the link to the javascript that powers the countdown table-->
-    </div>
-    <br>
-    <div class="footer">
+        <content id="content">
+          <table class="countdown" id="countdown">
+          </table>
+          
+          <div class="table"></div>
+          <script src="table.js"></script>
+          <!--This is the link to the javascript that powers the countdown table-->
+        
+          <div class="twitter" align = "right">
+      <!--This is the twitter timeline aligned to the right of the website-->
+  <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/ICC?ref_src=twsrc%5Etfw">Tweets by ICC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </content>
+<!--    <br> -->
+    <footer>
         <!--red background saying thank-you to these websites that helped me with clickable icons-->
       <h1>Special thanks to:</h1>
       <p>
@@ -44,7 +48,7 @@
             <img class="w3-schools" border="0" alt="W3Schools" src="https://lh3.googleusercontent.com/i-ij7KM2pFUUpFE31QAUDXg5mzGFNbm16S4tjmg2ZyuhCGLgNJ8oXJRbq7ysh6LoZg" width="100" height="100">
             </a>
         </p>
-    </div>
+    </footer>
     
     </body>
 </html>
