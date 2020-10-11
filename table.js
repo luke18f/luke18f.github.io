@@ -7,12 +7,12 @@ title: 'LEAGUES',
 counters: [
   // Each counter has a .title and a .date that is parsed by new Date()
   {
-    title: 'IPL',
-    date: 'September 19, 2020'
-  },
-  {
     title: 'BBL',
     date: 'December 3, 2020'
+  },
+  {
+    title: 'Super Smash',
+    date: 'December 23, 2020'
   },
   
 ]
@@ -36,26 +36,26 @@ title: 'ICC TOURNAMENTS',
 title: 'INTERNATIONAL SERIES',
    counters: [
     {
-      title: "Australia tour of England",
-      date: 'September 4, 2020'
-    },
-    {
-      title: "West Indies tour of Australia (Postponed)",
-      date: 'October 4, 2020'
-    },
-    {
-      title: "India tour of Australia",
-      date: 'October 11, 2020'
-    },
-    {
       title: "Afghanistan tour of Australia",
       date: "November 21, 2020"
+    },
+    {
+      title: "Pakistan tour of New Zealand",
+      date: 'December 18, 2020'
     },
     {
       title: "New Zealand tour of Australia",
       date: "January 26, 2021"
     },
-   
+    {
+      title: "Australia tour of New Zealand",
+      date: "February 22, 2021"
+    },
+    {
+      title: "Bangladesh tour of New Zealand",
+      date: "March 13, 2021"
+    },
+
 ]
 },
 ]
