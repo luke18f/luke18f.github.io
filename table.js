@@ -1,4 +1,4 @@
-// data is an array of objects, each representing one of your categories.
+// data is an array of objects, each representing one of my categories.
 // Each category has a .title to store its title and a .counters that
 // stores an object for each counter in that category.
 var data = [
@@ -21,12 +21,9 @@ counters: [
 title: 'ICC TOURNAMENTS',
   counters: [
     {
-      title: "No ICC Tournament dates have been released at this time",
-      date: 
-    },
-
-    
-    
+      title: "Women's Cricket World Cup (Postponed)",
+      date: 'February 6, 2021'
+    },  
   ]
 },
 {
