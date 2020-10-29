@@ -21,13 +21,10 @@ counters: [
 title: 'ICC TOURNAMENTS',
   counters: [
     {
-      title: "Men's T20 World Cup (Postponed)",
-      date: "October 18, 2020"
+      title: "No ICC Tournament dates have been released at this time",
+      date: 
     },
-    {
-      title: "Women's Cricket World Cup (Postponed)",
-      date: 'February 6, 2021'
-    },
+
     
     
   ]
